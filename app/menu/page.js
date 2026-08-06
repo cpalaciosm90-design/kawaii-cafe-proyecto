@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Descubre nuestros postres japoneses y menú internacional.',
 };
 
-// 1. Menú Kawaii Personalizado (Enlaces 100% seguros y probados)
+// 1. Menú Kawaii Personalizado (2 Cafés y 2 Postres - Enlaces de Wikipedia 100% seguros)
 const kawaiiMenu = [
-  { id: 'k1', title: 'Matcha Latte con Arte', image: 'https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k2', title: 'Macarons Estilo Kawaii', image: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e40?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k3', title: 'Mochi Dulce Tradicional', image: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k4', title: 'Dango de Colores', image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=500&q=80' }
+  { id: 'k1', title: 'Matcha Latte Kawaii', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Matcha_latte.jpg/500px-Matcha_latte.jpg' },
+  { id: 'k2', title: 'Latte Art Especial', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/500px-Cappuccino_at_Sightglass_Coffee.jpg' },
+  { id: 'k3', title: 'Macarons de Colores', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Macarons_-_Beurrage_noisette.jpg/500px-Macarons_-_Beurrage_noisette.jpg' },
+  { id: 'k4', title: 'Dango Dulce Tricolor', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hanami_dango_001.jpg/500px-Hanami_dango_001.jpg' }
 ];
 
 // 2. Consumo de API Pública
