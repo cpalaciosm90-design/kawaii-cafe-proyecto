@@ -9,7 +9,7 @@ export default function Error({ error, reset }) {
         onClick={() => reset()}
         style={{ marginTop: '1rem', padding: '0.5rem 1rem', cursor: 'pointer' }}
       >
-        Intentar de nuevo
+        Intentar nuevamente
       </button>
     </div>
   );
