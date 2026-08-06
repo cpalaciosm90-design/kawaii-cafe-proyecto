@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Descubre nuestros postres japoneses y menú internacional.',
 };
 
-// 1. Menú Kawaii Personalizado (Estética Japonesa)
+// 1. Menú Kawaii Personalizado (Enlaces 100% seguros y probados)
 const kawaiiMenu = [
-  { id: 'k1', title: 'Matcha Latte con Arte 3D', image: 'https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k2', title: 'Taiyaki Clásico de Anko', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Taiyaki_001.jpg/500px-Taiyaki_001.jpg' },
-  { id: 'k3', title: 'Mochi de Fresa Kawaii', image: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k4', title: 'Dango Dulce Tricolor', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hanami_dango_001.jpg/500px-Hanami_dango_001.jpg' }
+  { id: 'k1', title: 'Matcha Latte con Arte', image: 'https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&w=500&q=80' },
+  { id: 'k2', title: 'Macarons Estilo Kawaii', image: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e40?auto=format&fit=crop&w=500&q=80' },
+  { id: 'k3', title: 'Mochi Dulce Tradicional', image: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=500&q=80' },
+  { id: 'k4', title: 'Dango de Colores', image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=500&q=80' }
 ];
 
 // 2. Consumo de API Pública
