@@ -13,7 +13,7 @@ const kawaiiMenu = [
   { id: 'k4', title: 'Dango Dulce Tricolor', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hanami_dango_001.jpg/500px-Hanami_dango_001.jpg' }
 ];
 
-// 2. Consumo de API Pública (Para asegurar los 2.5 puntos de la rúbrica)
+// 2. Consumo de API Pública
 async function getDesserts() {
   const res = await fetch('https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert', { cache: 'no-store' });
   if (!res.ok) {
@@ -24,11 +24,11 @@ async function getDesserts() {
 
 export default async function Menu() {
   const data = await getDesserts();
-  const apiDesserts = data.meals.slice(0, 4); // Mostramos solo 4 de la API para no quitarle protagonismo a los tuyos
+  const apiDesserts = data.meals.slice(0, 4);
 
   return (
     <div>
-      {/* SECCIÓN 1: Tu menú temático */}
+      {/* SECCIÓN 1: menú temático */}
       <h1 style={{ textAlign: 'center', color: '#d63384', marginBottom: '2rem' }}>Especialidades Kawaii 🌸</h1>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', marginBottom: '4rem' }}>
         {kawaiiMenu.map((item) => (
@@ -36,7 +36,7 @@ export default async function Menu() {
         ))}
       </div>
 
-      {/* SECCIÓN 2: La API para los profesores */}
+      {/* SECCIÓN 2: La API */}
       <h2 style={{ textAlign: 'center', color: '#2c6e49', marginBottom: '2rem' }}>Postres del Mundo (Vía API) 🌍</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
         {apiDesserts.map((item) => (
