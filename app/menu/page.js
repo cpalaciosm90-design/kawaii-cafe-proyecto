@@ -2,7 +2,7 @@ import ProductCard from '../../components/ProductCard';
 
 export const metadata = {
   title: 'Menú | Matcha & Kawaii Cafe',
-  description: 'Descubre nuestros postres japoneses, menú pet-friendly y opciones internacionales.',
+  description: 'Descubre nuestros postres japoneses, menú pet-friendly y postres del mundo.',
 };
 
 // 1. Vectores Kawaii
@@ -24,7 +24,7 @@ const kawaiiMenu = [
 ];
 
 const petMenu = [
-  { id: 'p1', title: 'Puppuccino Clásico', image: imgPuppuccino },
+  { id: 'p1', title: 'Puppuccino', image: imgPuppuccino },
   { id: 'p2', title: 'Galletitas Perrunas', image: imgGalleta }
 ];
 
