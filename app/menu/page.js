@@ -55,7 +55,7 @@ export default async function Menu() {
         ))}
       </div>
 
-      <h2 style={{ textAlign: 'center', color: '#2c6e49', marginBottom: '2rem' }}>Postres del Mundo (Vía API) 🌍</h2>
+      <h2 style={{ textAlign: 'center', color: '#2c6e49', marginBottom: '2rem' }}>Postres del Mundo 🌍</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
         {apiDesserts.map((item) => (
           <ProductCard key={item.idMeal} title={item.strMeal} image={item.strMealThumb} />
