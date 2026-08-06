@@ -8,9 +8,9 @@ export const metadata = {
 // 1. Menú Kawaii Personalizado (Estética Japonesa)
 const kawaiiMenu = [
   { id: 'k1', title: 'Matcha Latte con Arte 3D', image: 'https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k2', title: 'Taiyaki Clásico de Anko', image: 'https://images.unsplash.com/photo-1629115911832-75e927515ee0?auto=format&fit=crop&w=500&q=80' },
+  { id: 'k2', title: 'Taiyaki Clásico de Anko', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Taiyaki_001.jpg/500px-Taiyaki_001.jpg' },
   { id: 'k3', title: 'Mochi de Fresa Kawaii', image: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=500&q=80' },
-  { id: 'k4', title: 'Dango Dulce Tricolor', image: 'https://images.unsplash.com/photo-1627308595186-e13dc397c88b?auto=format&fit=crop&w=500&q=80' }
+  { id: 'k4', title: 'Dango Dulce Tricolor', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hanami_dango_001.jpg/500px-Hanami_dango_001.jpg' }
 ];
 
 // 2. Consumo de API Pública (Para asegurar los 2.5 puntos de la rúbrica)
